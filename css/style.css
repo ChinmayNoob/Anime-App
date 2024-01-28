@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    /* background-color: #6B70FF; */
+    background: linear-gradient(to top, #1A759F 0%, #34A0A4 100%);
+}
+
+
+.container {
+    text-align: center;
+    color: #D9ED92;
+    background-color: #1A759F;
+    max-width: 400px;
+    height: 550px;
+    font-family: Raleway,sans-serif;
+    padding: 2rem 3rem; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    margin-bottom: 10px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background: rgba(255, 255, 255,0.5);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+input{
+    flex: 1;
+    outline: none;
+    padding: 10px 10px;
+    background: transparent;
+    border: none;
+    color:#34A0A4 ;
+    font-size: 14px;
+    font-weight: 700;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 40px;
+    background: #4891B2;
+    color: #D9ED92;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.content {
+    background-color: #B5E48C;
+    max-width: 400px;
+    height: 380px;
+    font-family: RaleWay,sans-serif;
+    padding: 2rem;
+    margin:10px
+}
+.ch-img {
+    background-color: #1A759F;
+    max-width: 150px;
+    height: 200px;
+    padding: 2px;
+    margin: auto;
+}
+
+.ch-name {
+    background-color: #1A759F;
+    max-width: 300px;
+    height: 25px;
+    padding: 2px;
+    margin: 10px;
+}
+.ch-anime {
+    background-color: #1A759F;
+    max-width: 300px;
+    height: 25px;
+    padding: 2px;
+    margin: 10px;
+}
+
+.info {
+    background-color: #1A759F;
+    max-width: 300px;
+    height: 25px;
+    padding: 2px;
+    margin: 10px;
+}
+
