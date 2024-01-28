@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link
     href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
     rel="stylesheet"
@@ -12,18 +13,20 @@
 </head>
 <body>
     <div class="container">
-        <h2>AnimeHunt</h2>
-        <div class="search">
-            <input type="text" id="input-box" placeholder="Enter your Character Name">
-            <button id="search-btn">Search</button>
-        </div>
+        <h2 id="h2">AnimeHunt</h2>
+        <form class="search">
+            <input type="text" id="input-box" placeholder="Enter your Anime">
+            <button id="search-btn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
+        </form>
     <div class="content">
-        <div class="ch-img">Charcter's Image</div>
-        <div class="ch-name">Character's Name</div>
-        <div class="ch-anime">Character's Anime</div>
-        <div class="info">Anime's Info</div>
+        <div class="ch-img"></div>
+        <div class="ch-name">Anime's Name</div>
+        <div class="ch-genre">Anime's Genre</div>
+        <div class="info">
+            <a id="link" target="_blank" href="#">Get More Info</a></div>
+        <!-- <a id="link" target="_blank" href="#">link</a> -->
     </div>
-    </div>
+
     <script src="./script/script.js"></script>
 </body>
 </html>
